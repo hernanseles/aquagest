@@ -1,0 +1,9 @@
+{
+  "name": "aquagest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "vite --host 127.0.0.1", "build": "vite build", "preview": "vite preview --host 127.0.0.1", "test": "node --test tests/domain.test.js"},
+  "dependencies": {"react": "^19.2.0", "react-dom": "^19.2.0", "lucide-react": "^0.468.0", "recharts": "^3.3.0", "@radix-ui/react-dialog": "^1.1.15", "@fontsource/dm-sans": "^5.2.8", "@fontsource/manrope": "^5.2.8"},
+  "devDependencies": {"vite": "^7.1.12", "@vitejs/plugin-react": "^5.0.4"}
+}
